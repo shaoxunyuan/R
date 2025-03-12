@@ -1,5 +1,5 @@
 # 合并所有样本的quant.sf，并按数据集生成原始quant.sf，过滤后的quant.sf，以及linear和circular不同水平的quant.sf（SE格式）
-
+# wget https://raw.githubusercontent.com/shaoxunyuan/R/main/Merge_quant.sf.R
 args <- commandArgs(trailingOnly = TRUE)
 
 # 获取传入的数据集名字如PRJNA429023
