@@ -166,6 +166,7 @@ message("cirular-gene处理:",datasetname)
 message("cirular-gene处理完成:",datasetname)   
 }
 
+Function_quant.sf_raw(datasetname)
 Function_quant.sf_filter(datasetname)
 Function_quant.sf_linear(datasetname)
 Function_quant.sf_circular(datasetname)
