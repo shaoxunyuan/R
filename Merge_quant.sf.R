@@ -1,6 +1,5 @@
-# 读取命令行参数
-# 该脚本将单个数据集的quant.sf结果整合为linear和circular两个水平的SummarizedExperiment格式
-# linear包含isoform和gene水平，circular包含isoform，bsj和gene水平
+# 合并所有样本的quant.sf，并按数据集生成原始quant.sf，过滤后的quant.sf，以及linear和circular不同水平的quant.sf（SE格式）
+
 args <- commandArgs(trailingOnly = TRUE)
 
 # 获取传入的数据集名字如PRJNA429023
